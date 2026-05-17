@@ -7,3 +7,5 @@ frontend/build/
 *.log
 .server-err.log
 .server-out.log
+desktop.ini
+Thumbs.db
