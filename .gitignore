@@ -9,3 +9,5 @@ frontend/build/
 .server-out.log
 desktop.ini
 Thumbs.db
+
+.vercel
