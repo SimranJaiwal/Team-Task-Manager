@@ -99,8 +99,8 @@ team-task-manager/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/team-task-manager.git
-cd team-task-manager
+git clone https://github.com/SimranJaiwal/Team-Task-Manager.git
+cd Team-Task-Manager
 ```
 
 ### 2. Install dependencies
@@ -247,7 +247,7 @@ Add screenshots to a `docs/screenshots/` folder in the repo, then update the pat
 **Simran Jaiswal**
 
 - Email: [jaiswalsimran08926@gmail.com](mailto:jaiswalsimran08926@gmail.com)
-- GitHub: [@YOUR_GITHUB_USERNAME](https://github.com/YOUR_GITHUB_USERNAME)
+- GitHub: [@SimranJaiwal](https://github.com/SimranJaiwal)
 
 ---
 
