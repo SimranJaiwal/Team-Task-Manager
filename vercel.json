@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "npm run install:all && npm run build",
+  "installCommand": "npm run install:all",
+  "outputDirectory": "frontend/build",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
+  ],
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 30
+    }
+  }
+}

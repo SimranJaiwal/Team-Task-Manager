@@ -234,11 +234,15 @@ Add screenshots to a `docs/screenshots/` folder in the repo, then update the pat
 
 ## Deployment (Live URL)
 
-1. Push this project to GitHub.
-2. Create a MongoDB Atlas cluster and copy the connection string.
-3. Deploy on [Railway](https://railway.app): **New Project** → **Deploy from GitHub repo**.
-4. Set variables: `MONGODB_URI`, `JWT_SECRET`, `NODE_ENV=production`.
-5. Use the Railway URL (e.g. `https://your-app.up.railway.app`) as your live link.
+**Live app:** [https://team-task-manager-orpin-alpha.vercel.app](https://team-task-manager-orpin-alpha.vercel.app)
+
+Hosted on [Vercel](https://vercel.com). For full database features, add these environment variables in the Vercel project dashboard:
+
+- `MONGODB_URI` — MongoDB Atlas connection string
+- `JWT_SECRET` — strong secret key
+- `NODE_ENV` — `production`
+
+Alternative: deploy on [Railway](https://railway.app) using `railway.json` in this repo.
 
 ---
 
